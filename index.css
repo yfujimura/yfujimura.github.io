@@ -42,13 +42,13 @@ nav a.current { color: var(--text); font-weight: 700; }
 .intro {
   min-height: 590px;
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: 220px 1fr;
   gap: 64px;
   align-items: center;
   padding: 72px 0 88px;
 }
 .portrait {
-  width: 300px;
+  width: 220px;
   aspect-ratio: 3 / 4;
   object-fit: cover;
   object-position: center 25%;
@@ -217,7 +217,7 @@ footer span { color: var(--muted); font-size: 13px; }
   nav { justify-content: flex-end; flex-wrap: wrap; gap: 5px 14px; }
   nav a { font-size: 11px; }
   .intro { grid-template-columns: 1fr; gap: 36px; padding: 52px 0 72px; }
-  .portrait { width: min(75%, 300px); }
+  .portrait { width: min(60%, 220px); }
   .contact { flex-wrap: wrap; }
   .contact span { width: 100%; margin-top: 6px; }
   .project { grid-template-columns: 1fr; gap: 24px; }
