@@ -18,6 +18,9 @@ export const metadata: Metadata = {
     description: "Physics-based vision, 3D reconstruction, and machine learning at NAIST.",
     images: ["/og.png"],
   },
+  verification: {
+    google: "1V5IJR8s3YajugIKcKHf3FLuh9eAOwk5aUTRntPrh9o",
+  },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
